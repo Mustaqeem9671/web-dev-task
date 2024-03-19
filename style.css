@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+main {
+  border: #8c8b8b 5px solid;
+  margin: 2% 14%;
+  border-radius: 10px;
+}
+
+/* section 1 */
+.section--1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 5%;
+}
+.section--1 h1 {
+  font-size: 40px;
+  background: blueviolet;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+.section--1 p {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin: 0px 10%;
+  text-align: center;
+  padding: 10px;
+}
+
+.hr {
+  background-color: #fff;
+  border-top: 5px dotted #8c8b8b;
+  margin: 20px 5%;
+}
+
+/* section 2 */
+.section--2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.section--2 h1 {
+  font-size: 40px;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 20px 0px;
+}
+.section--2 h2 {
+  font-size: 30px;
+  background: blueviolet;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 20px 0px;
+}
+.section--2--content--one,
+.section--2--content--two {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.section--2--content--one img,
+.section--2--content--two img {
+  border-radius: 50%;
+  margin: 10px 35px;
+  /* height: 250px; */
+}
+.section--2 p {
+  font-size: 20px;
+}
+
+/* section 3 */
+.section--3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.section--3 h1 {
+  font-size: 30px;
+  background: blueviolet;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 20px 0px;
+}
+.section--3--content--one,
+.section--3--content--two {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.section--3--content--one img,
+.section--3--content--two img {
+  border-radius: 50%;
+  margin: 10px 20px;
+  /* height: 250px; */
+}
+
+/* Media Query  */
+@media only screen and (max-width: 600px) {
+  .section--2--content--one img,
+  .section--2--content--two img,
+  .section--3--content--one img,
+  .section--3--content--two img {
+    margin: 5px;
+    height: 150px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .section--2--content--one img,
+  .section--2--content--two img,
+  .section--3--content--one img,
+  .section--3--content--two img {
+    margin: 10px;
+    height: 150px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .section--2--content--one img,
+  .section--2--content--two img,
+  .section--3--content--one img,
+  .section--3--content--two img {
+    margin: 10px;
+    height: 150px;
+  }
+}
